@@ -1,25 +1,26 @@
 
-  <!DOCTYPE HTML>
+  
+    <!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   
-    <title>SYX</title>
+    <title>关于 | SYX</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="SYX">
     
 
     
-    <meta name="description" content="只能永远把艰辛的劳动看作是生命的必要；即使没有收获的指望，也心平气静地继续耕种。">
+    <meta name="description" content="知世故而不世故，才是最善良的成熟">
 <meta property="og:type" content="website">
-<meta property="og:title" content="SYX">
-<meta property="og:url" content="http://yoursite.com/categories/博客/index.html">
+<meta property="og:title" content="关于">
+<meta property="og:url" content="http://yoursite.com/about/index.html">
 <meta property="og:site_name" content="SYX">
-<meta property="og:description" content="只能永远把艰辛的劳动看作是生命的必要；即使没有收获的指望，也心平气静地继续耕种。">
+<meta property="og:description" content="知世故而不世故，才是最善良的成熟">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SYX">
-<meta name="twitter:description" content="只能永远把艰辛的劳动看作是生命的必要；即使没有收获的指望，也心平气静地继续耕种。">
+<meta name="twitter:title" content="关于">
+<meta name="twitter:description" content="知世故而不世故，才是最善良的成熟">
 
     
     <link rel="alternative" href="/atom.xml" title="SYX" type="application/atom+xml">
@@ -34,9 +35,9 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css">
 </head>
 
-    <body>
-      <header>
-        <div>
+      <body>
+        <header>
+          <div>
 		
 			<div id="imglogo">
 				<a href="/"><img src="/img/logo.png" alt="SYX" title="SYX"/></a>
@@ -70,36 +71,59 @@
 				</ul>
 			</nav>			
 </div>
-      </header>
-      <div id="container">
-        
-
-<div class="archive-title" >
-  <h2 class="category-icon">博客</h2>
+        </header>
+        <div id="container">
+          <div id="main" class="page" itemscope itemprop="blogPost">
   
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/about/index.html" title="关于" itemprop="url">关于</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="http://yoursite.com/about" title="SYX" target="_blank" itemprop="author">SYX</a>
+		
+  <p class="article-time">
+    <time datetime="1940-10-24T02:26:18.955Z" itemprop="datePublished"> 发表于 1940-10-24</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<h4 id="知世故而不世故，才是最善良的成熟">知世故而不世故，才是最善良的成熟</h4>  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
 </div>
-<div id="main" class="archive-part clearfix">
-  <div id="archive-page">
-
-  <section class="post" itemscope itemprop="blogPost">
-  
-    <a href="/2015/04/06/begin/" title="博客搭建" itemprop="url">
-  
-
-    <time datetime="2015-04-06T10:30:08.000Z" itemprop="datePublished">2015-04-06</time>
 
 
-    <h1 itemprop="name">博客搭建</h1>
 
-  </a>
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://yoursite.com/about/index.html" data-title="关于 | SYX" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+	
+<section id="comments" class="comment">
+	<div class="ds-thread" data-thread-key="about/index.html" data-title="关于" data-url="http://yoursite.com/about/index.html"></div>
 </section>
 
 
-  </div>
-</div>
-
-      </div>
-      <footer><div id="footer" >
+</div>  
+        </div>
+        <footer><div id="footer" >
 	
 	<div class="line">
 		<span></span>
@@ -138,7 +162,7 @@
 		</p>
 </div>
 </footer>
-      <script src="/js/jquery-2.0.3.min.js"></script>
+        <script src="/js/jquery-2.0.3.min.js"></script>
 <script src="/js/jquery.imagesloaded.min.js"></script>
 <script src="/js/gallery.js"></script>
 
@@ -188,6 +212,35 @@ $(document).ready(function(){
 </script>
 
 
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#nothing"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
 
 
 <script type="text/javascript">
@@ -207,6 +260,27 @@ $(document).ready(function(){
 
 
 
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
 
 
 
@@ -237,5 +311,6 @@ $(document).ready(function(){
 
 <!-- Tiny_search End -->
 
-    </body>
-   </html>
+      </body>
+     </html>
+     
